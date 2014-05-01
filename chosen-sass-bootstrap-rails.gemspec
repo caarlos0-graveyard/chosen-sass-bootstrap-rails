@@ -15,7 +15,9 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_dependency "bootstrap-sass", "~> 2.2.2.0"
-  gem.add_dependency "sass-rails",   "~> 3.2.3"
+  gem.add_dependency "bootstrap-sass", "~> 3.1"
+  gem.add_dependency "sass-rails",   "~> 4.0"
+  gem.add_dependency "bootstrap-chosen", "~> "
+  gem.add_dependency "compass-rails",   "~> 1.1"
   gem.add_dependency "chosen-rails"
 end
