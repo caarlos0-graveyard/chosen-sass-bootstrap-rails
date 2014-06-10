@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "chosen-sass-bootstrap-rails"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
-  gem.description   = %q{Just a Gemified version of choses-sass-bootstrap, by @joeylomanto}
+  gem.description   = %q{Just a Gemified version of chosen-sass-bootstrap, by @joeylomanto}
   gem.summary       = %q{Same as description}
   gem.homepage      = ""
 
