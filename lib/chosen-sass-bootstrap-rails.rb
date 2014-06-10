@@ -1,3 +1,5 @@
+require 'chosen-rails'
+
 module Chosen
   module Sass
     module Bootstrap
