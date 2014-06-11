@@ -1,6 +1,7 @@
 # Chosen::Sass::Bootstrap::Rails
 
-Just a Gemified version of choses-sass-bootstrap, by @joeylomanto.
+Just a Gemified version of chosen-sass-bootstrap, by @joeylomanto.
+Uses chosen-rails, by @tsechingho.
 
 ## Installation
 
@@ -18,10 +19,11 @@ Or install it yourself as:
 
 ## Usage
 
+Follow the `jquery-rails` instructions (https://github.com/tsechingho/chosen-rails),
+specifically include the chosen javascript assets and enable chosen javascript. 
 
-Replace the `require chosen` by `require chosen_bootstrap` in your
-application.css and you are ready to go.
-
+Include the chosen stylesheet assets but use `require chosen_bootstrap` instead of
+`require chosen` in your `application.css` and you are ready to go.
 
 ## Contributing
 
