@@ -318,7 +318,9 @@
 
   .chosen-drop {
     .result-selected {
-      display: none;
+      display: list-item;
+      color: #ccc;
+      cursor: default;
     }
   }
 }
