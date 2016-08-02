@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "chosen-sass-bootstrap-rails"
-  gem.version       = "0.0.4"
+  gem.version       = "0.0.5"
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
   gem.description   = %q{Just a Gemified version of chosen-sass-bootstrap, by @joeylomanto}
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   gem.add_dependency "bootstrap-sass", "~> 3.1"
-  gem.add_dependency "sass-rails",   "~> 4.0"
+  gem.add_dependency "sass-rails",   "~> 5.0"
   gem.add_dependency "compass-rails",   "~> 2.0"
   gem.add_dependency "chosen-rails"
 end
